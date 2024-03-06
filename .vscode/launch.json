@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": false,
       "cwd": "/u2/pr44/VS/Hello",
-      "program": "/u2/pr44/VS/Hello/build/Debug/outDebug",
+      "program": "/u2/pr44/VS/Hello/hello",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
