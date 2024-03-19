@@ -1,0 +1,35 @@
+{
+    "name": "pmy-extension",
+    "displayName": "Prompt Extension",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.myCommand",
+                "title": "My Command"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "npm run compile"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.29",
+        "typescript": "^4.4.3",
+        "vscode-test": "^1.6.1"
+    }
+}
